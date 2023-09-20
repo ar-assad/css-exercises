@@ -16,13 +16,30 @@ body {
 }
 
 .modal {
+  display: flex;
+  padding: 16px;
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 }
 
+.top {
+  display: flex;
+}
+
+.header {
+  flex:1;
+  font-weight: bold;
+}
+
+.text {
+  margin: 12px 0;
+}
+
 .icon {
+  flex-shrink: 0;
+  margin-right: 16px;
   color: royalblue;
   font-size: 26px;
   font-weight: 700;
